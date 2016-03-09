@@ -1,0 +1,16 @@
+#ifndef __FRIJA_APPLICATION__
+#define __FRIJA_APPLICATION__
+
+#include "headers/app.hpp"
+#include "headers/app_guard.hpp"
+#include "ipp/app.ipp"
+#include "ipp/app_guard.ipp"
+
+namespace hyronx
+{
+
+using namespace frija = CPM_FRIJA_NS;
+
+}
+
+#endif // !__FRIJA_APPLICATION__
