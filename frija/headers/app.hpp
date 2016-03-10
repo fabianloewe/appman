@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-#include "../../tyr/ArgumentParser"
+#include <tyr/tyr>
 
 namespace CPM_FRIJA_NS
 {

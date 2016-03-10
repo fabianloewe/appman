@@ -9,7 +9,7 @@
 namespace hyronx
 {
 
-using namespace frija = CPM_FRIJA_NS;
+namespace frija = CPM_FRIJA_NS;
 
 }
 
