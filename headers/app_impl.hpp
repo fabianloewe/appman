@@ -1,10 +1,13 @@
-#ifndef __APPLICATION_GUARDIAN__
-#define __APPLICATION_GUARDIAN__
+#ifndef __APPLICATION_RUN__
+#define __APPLICATION_RUN__
 
 #include <memory>
 #include <mutex>
 
-namespace CPM_FRIJA_NS
+namespace hyronx
+{
+
+namespace appman
 {
 
 class Application;
@@ -17,6 +20,7 @@ static auto run(int argc, char *argv[], Args ...args) -> int;
 
 
 }
+}
 
-#endif // !__APPLICATION_GUARDIAN__
+#endif // !__APPLICATION_RUN__
 
